@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Card } from "@/components/ui/Card";
 import { formatTMA, formatTrend } from "@/lib/format";
 
@@ -9,8 +10,6 @@ interface WaterLevelCardProps {
 }
 
 export function WaterLevelCard({ tma, trend, nwl, lwl }: WaterLevelCardProps) {
-  const percent = (tma - lwl) / (nwl - lwl);
-
   return (
     <Card className="flex flex-col gap-4">
       <div className="flex justify-between items-start">

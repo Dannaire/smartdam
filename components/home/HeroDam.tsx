@@ -1,7 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 import { StatusBadge } from "@/components/ui/Badge";
 import { AlertLevel } from "@/types";
 import { formatDateWIB } from "@/lib/format";
-import Image from "next/image";
 import { Bell, Droplets } from "lucide-react";
 import Link from "next/link";
 
