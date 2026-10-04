@@ -2,7 +2,6 @@
 
 import dynamic from "next/dynamic";
 import { Skeleton } from "@/components/ui/Skeleton";
-import { Location } from "@/types";
 import { Button } from "@/components/ui/Button";
 import { MapPin } from "lucide-react";
 
@@ -12,7 +11,7 @@ const Map = dynamic(() => import("@/components/map/LeafletMap"), {
 });
 
 interface DamMapProps {
-  location: Location;
+  location: { lat: number; lng: number; address: string };
 }
 
 export function DamMap({ location }: DamMapProps) {
@@ -33,7 +32,7 @@ export function DamMap({ location }: DamMapProps) {
             {location.lat}, {location.lng}
           </p>
           <p className="text-sm text-ink-500 mt-1">
-            {location.regency}, {location.province}
+            {location.address}
           </p>
         </div>
         <Button variant="outline" onClick={openGoogleMaps} className="shrink-0 w-full sm:w-auto">

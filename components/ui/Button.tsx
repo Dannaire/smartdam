@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { ButtonHTMLAttributes, ReactNode } from "react";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "primary" | "secondary" | "ghost" | "danger";
+  variant?: "primary" | "secondary" | "ghost" | "danger" | "outline";
   size?: "sm" | "md" | "lg";
   fullWidth?: boolean;
   children: ReactNode;
@@ -24,6 +24,7 @@ export function Button({
       "bg-brand-50 text-brand-800 border border-brand-100 hover:bg-brand-100 active:bg-brand-100",
     ghost: "text-brand-800 hover:bg-brand-50 active:bg-brand-100",
     danger: "bg-status-awas text-white hover:opacity-90 active:opacity-80",
+    outline: "border border-ink-200 text-ink-700 hover:bg-ink-50",
   };
 
   const sizeMap = {

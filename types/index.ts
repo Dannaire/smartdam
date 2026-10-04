@@ -21,6 +21,8 @@ export interface Dam {
     deadStorage: number;
     reservoirArea: number;
     functions: string[];
+    completionYear?: string;
+    operator?: string;
   };
   levels: { nwl: number; lwl: number; rwl: number };
 }

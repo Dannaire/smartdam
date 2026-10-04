@@ -60,7 +60,7 @@ export default function PetaPage() {
                    </div>
                 </div>
                 <div className="mt-3 flex items-center justify-between text-[10px] text-ink-500 border-t border-line pt-3">
-                   <span>Koordinat: {selectedSensor.lat.toFixed(4)}, {selectedSensor.lng.toFixed(4)}</span>
+                   <span>Koordinat: {selectedSensor.lat?.toFixed(4) ?? "-"}, {selectedSensor.lng?.toFixed(4) ?? "-"}</span>
                    <span>Update: Hari Ini</span>
                 </div>
              </Card>

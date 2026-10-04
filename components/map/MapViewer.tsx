@@ -45,10 +45,10 @@ export default function MapViewer({ instruments, onSelect }: MapViewerProps) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {instruments.map(inst => (
+      {instruments.filter(i => i.lat !== undefined && i.lng !== undefined).map(inst => (
         <Marker 
           key={inst.id} 
-          position={[inst.lat, inst.lng]}
+          position={[inst.lat as number, inst.lng as number]}
           icon={createIcon(getIconColor(inst.status))}
           eventHandlers={{
             click: () => onSelect(inst),

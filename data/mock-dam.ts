@@ -30,6 +30,8 @@ export const mockDam: Dam = {
       "Pariwisata",
       "Perikanan",
     ],
+    completionYear: "2018",
+    operator: "BWS Nusa Tenggara I",
   },
   levels: {
     nwl: 85.0,
