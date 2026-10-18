@@ -15,11 +15,12 @@ export interface Dam {
   technical: {
     type: string;
     height: number;
-    crestLength: number;
-    totalStorage: number;
+    crestLength?: number;
+    crestWidth?: number;
+    totalStorage?: number;
     effectiveStorage: number;
     deadStorage: number;
-    reservoirArea: number;
+    reservoirArea?: number;
     functions: string[];
     completionYear?: string;
     operator?: string;

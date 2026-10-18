@@ -11,7 +11,7 @@ export const mockInstruments: Instrument[] = [
     status: "normal",
     lat: -8.5789,
     lng: 117.4231,
-    updatedAt: "2026-09-29T02:40:00.000Z",
+    updatedAt: "2026-10-20T00:00:00.000Z",
     threshold: { warning: 83.0, danger: 84.0 },
   },
   {
@@ -23,7 +23,7 @@ export const mockInstruments: Instrument[] = [
     status: "waspada",
     lat: -8.5432,
     lng: 117.3987,
-    updatedAt: "2026-09-29T02:40:00.000Z",
+    updatedAt: "2026-10-20T00:00:00.000Z",
     threshold: { warning: 10.0, danger: 50.0 },
   },
   {
@@ -35,7 +35,7 @@ export const mockInstruments: Instrument[] = [
     status: "normal",
     lat: -8.5601,
     lng: 117.4089,
-    updatedAt: "2026-09-29T02:40:00.000Z",
+    updatedAt: "2026-10-20T00:00:00.000Z",
     threshold: { warning: 10.0, danger: 50.0 },
   },
   {
@@ -47,7 +47,7 @@ export const mockInstruments: Instrument[] = [
     status: "normal",
     lat: -8.5790,
     lng: 117.4228,
-    updatedAt: "2026-09-29T02:40:00.000Z",
+    updatedAt: "2026-10-20T00:00:00.000Z",
     threshold: { warning: 180.0, danger: 210.0 },
   },
   {
@@ -59,7 +59,7 @@ export const mockInstruments: Instrument[] = [
     status: "normal",
     lat: -8.5795,
     lng: 117.4225,
-    updatedAt: "2026-09-29T02:40:00.000Z",
+    updatedAt: "2026-10-20T00:00:00.000Z",
     threshold: { warning: 180.0, danger: 210.0 },
   },
   {
@@ -71,7 +71,7 @@ export const mockInstruments: Instrument[] = [
     status: "normal",
     lat: -8.5788,
     lng: 117.4233,
-    updatedAt: "2026-09-29T02:40:00.000Z",
+    updatedAt: "2026-10-20T00:00:00.000Z",
     threshold: { warning: 5.0, danger: 10.0 },
   },
   {
@@ -83,7 +83,7 @@ export const mockInstruments: Instrument[] = [
     status: "normal",
     lat: -8.5787,
     lng: 117.4229,
-    updatedAt: "2026-09-29T02:40:00.000Z",
+    updatedAt: "2026-10-20T00:00:00.000Z",
     threshold: { warning: 5.0, danger: 10.0 },
   },
   {
@@ -95,7 +95,7 @@ export const mockInstruments: Instrument[] = [
     status: "normal",
     lat: -8.5791,
     lng: 117.4235,
-    updatedAt: "2026-09-29T02:40:00.000Z",
+    updatedAt: "2026-10-20T00:00:00.000Z",
     threshold: { warning: 0.05, danger: 0.1 },
   },
   {
@@ -107,7 +107,7 @@ export const mockInstruments: Instrument[] = [
     status: "normal",
     lat: -8.5789,
     lng: 117.4231,
-    updatedAt: "2026-09-29T02:40:00.000Z",
+    updatedAt: "2026-10-20T00:00:00.000Z",
   },
 ];
 
@@ -125,7 +125,7 @@ export const mockWeather = {
   humidity: 78,
   windSpeed: 12.3,
   windDirection: "Barat Daya",
-  updatedAt: "2026-09-29T02:40:00.000Z",
+  updatedAt: "2026-10-20T00:00:00.000Z",
 };
 
 // Data untuk chart

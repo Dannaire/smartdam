@@ -15,7 +15,7 @@ export default function InstrumentasiPage() {
       <PageContainer>
         <div className="space-y-4">
           <p className="text-sm text-ink-500">
-            Daftar lengkap pembacaan instrumen sensor di Bendungan Sumbawa.
+            Daftar lengkap pembacaan instrumen sensor di Bendungan Utan.
           </p>
 
           {isLoading ? (

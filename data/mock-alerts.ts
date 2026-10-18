@@ -8,8 +8,8 @@ export const mockAlerts: AlertItem[] = [
     level: "siaga",
     title: "Status Siaga",
     message:
-      "Potensi peningkatan inflow akibat hujan lebat di hulu.",
-    createdAt: "2026-09-29T01:30:00.000Z", // 29 Sep 2026 08.30 WIB
+      "Kondisi defisit air. Musim kering menyebabkan inflow menurun signifikan.",
+    createdAt: "2026-10-20T00:00:00.000Z",
     read: false,
   },
   {
@@ -18,17 +18,8 @@ export const mockAlerts: AlertItem[] = [
     level: "waspada",
     title: "Rencana Pelepasan Air",
     message:
-      "Pelepasan air melalui spillway mulai 30 Sep 2026 pukul 10.00 WIB. Debit rencana: 150 m³/det.",
-    createdAt: "2026-09-29T01:30:00.000Z", // 29 Sep 08.30
-    read: false,
-  },
-  {
-    id: "alert-003",
-    kind: "peringatan",
-    level: "waspada",
-    title: "Peningkatan Curah Hujan",
-    message: "Curah hujan tinggi di DAS hulu (> 50 mm/jam).",
-    createdAt: "2026-09-28T23:15:00.000Z", // 29 Sep 06.15 WIB
+      "Pelepasan air melalui spillway mulai 21 Okt 2026 pukul 10.00 WITA. Debit rencana: 150 m³/det.",
+    createdAt: "2026-10-20T00:00:00.000Z",
     read: false,
   },
   {
@@ -37,7 +28,7 @@ export const mockAlerts: AlertItem[] = [
     level: "normal",
     title: "Kondisi Normal",
     message: "Semua parameter dalam batas aman.",
-    createdAt: "2026-09-28T11:00:00.000Z", // 28 Sep 18.00 WIB
+    createdAt: "2026-10-19T00:00:00.000Z",
     read: true,
   },
 ];
@@ -49,15 +40,15 @@ export const currentAlertStatus: {
   timestamp: string;
 } = {
   level: "siaga",
-  message: "Potensi peningkatan inflow akibat hujan lebat di hulu.",
-  timestamp: "2026-09-29T01:30:00.000Z",
+  message: "Kondisi defisit air. Musim kering menyebabkan inflow menurun signifikan.",
+  timestamp: "2026-10-20T00:00:00.000Z",
 };
 
 export const mockOperationSchedules: OperationSchedule[] = [
   {
     id: "ops-001",
     title: "Pelepasan Air melalui Spillway",
-    startAt: "2026-09-30T03:00:00.000Z", // 30 Sep pukul 10.00 WIB
+    startAt: "2026-10-21T02:00:00.000Z", // 21 Okt pukul 10.00 WITA
     plannedDischarge: 150,
     status: "terjadwal",
   },

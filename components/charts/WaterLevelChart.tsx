@@ -9,7 +9,6 @@ import {
   Tooltip,
   ReferenceLine,
   ResponsiveContainer,
-  TooltipProps,
 } from "recharts";
 import { WaterLevelReading } from "@/types";
 import { cn } from "@/lib/utils";
@@ -29,7 +28,13 @@ function formatLabel(isoStr: string): string {
   return `${d.getUTCDate()}/${d.getUTCMonth() + 1}`;
 }
 
-function CustomTooltip({ active, payload, label }: any) {
+interface CustomTooltipProps {
+  active?: boolean;
+  payload?: Array<{ value?: number }>;
+  label?: string;
+}
+
+function CustomTooltip({ active, payload, label }: CustomTooltipProps) {
   if (!active || !payload?.length) return null;
   return (
     <div className="bg-white border border-line rounded-xl shadow-lg px-3 py-2 text-sm">

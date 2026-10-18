@@ -72,7 +72,7 @@ export default function GrafikPage() {
             
             {activeTab === 'tma' && (
               <div className="mb-4">
-                 <WaterLevelChart data={mockChartData.tma} showRuleCurve={showRuleCurve} nwl={85.0} lwl={75.0} height={350} />
+                 <WaterLevelChart data={mockChartData.tma} showRuleCurve={showRuleCurve} nwl={98.03} lwl={77.19} height={350} />
               </div>
             )}
 
@@ -101,11 +101,11 @@ export default function GrafikPage() {
                   </div>
                   <div className="flex justify-between p-4">
                     <span className="text-ink-600 font-medium">NWL</span>
-                    <span className="text-brand-600 font-bold">85.00 m</span>
+                    <span className="text-brand-600 font-bold">98.03 m</span>
                   </div>
                   <div className="flex justify-between p-4">
                     <span className="text-ink-600 font-medium">LWL</span>
-                    <span className="text-brand-600 font-bold">75.00 m</span>
+                    <span className="text-brand-600 font-bold">77.19 m</span>
                   </div>
                   <div className="flex justify-between p-4">
                     <span className="text-ink-600 font-medium">Volume Tersedia</span>

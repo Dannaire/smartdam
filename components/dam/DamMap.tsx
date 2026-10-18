@@ -29,7 +29,7 @@ export function DamMap({ location }: DamMapProps) {
         <div>
           <h4 className="text-sm font-semibold text-ink-900 mb-1">Koordinat Lokasi</h4>
           <p className="text-sm text-ink-500 font-mono">
-            {location.lat}, {location.lng}
+            8°27&apos;28.07&quot; S, 117°07&apos;32.06&quot; E
           </p>
           <p className="text-sm text-ink-500 mt-1">
             {location.address}

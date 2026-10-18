@@ -2,26 +2,28 @@
 // Format: "29 Sep 2026 09.40 WIB", angka desimal koma
 
 /**
- * Format tanggal ke "29 Sep 2026 09.40 WIB"
+ * Format tanggal ke "20 Okt 2026 08.00 WITA" (UTC+8)
  */
 export function formatDateWIB(isoString: string): string {
   try {
     const date = new Date(isoString);
-    // Tambah 7 jam untuk WIB (UTC+7)
-    const wibDate = new Date(date.getTime() + 7 * 60 * 60 * 1000);
-    const day = wibDate.getUTCDate();
-    const month = wibDate.toLocaleString("id-ID", {
+    // Tambah 8 jam untuk WITA (UTC+8)
+    const witaDate = new Date(date.getTime() + 8 * 60 * 60 * 1000);
+    const day = witaDate.getUTCDate();
+    const month = witaDate.toLocaleString("id-ID", {
       month: "short",
       timeZone: "UTC",
     });
-    const year = wibDate.getUTCFullYear();
-    const hours = String(wibDate.getUTCHours()).padStart(2, "0");
-    const minutes = String(wibDate.getUTCMinutes()).padStart(2, "0");
-    return `${day} ${month} ${year} ${hours}.${minutes} WIB`;
+    const year = witaDate.getUTCFullYear();
+    const hours = String(witaDate.getUTCHours()).padStart(2, "0");
+    const minutes = String(witaDate.getUTCMinutes()).padStart(2, "0");
+    return `${day} ${month} ${year} ${hours}.${minutes} WITA`;
   } catch {
     return "-";
   }
 }
+
+export const formatDateWITA = formatDateWIB;
 
 /**
  * Format angka desimal dengan koma (ID style)

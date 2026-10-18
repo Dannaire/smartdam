@@ -15,7 +15,7 @@ export default function OperasiWadukPage() {
           <section>
             <div className="mb-4">
               <h2 className="text-lg font-bold text-ink-900">Rencana Operasi Mingguan</h2>
-              <p className="text-sm text-ink-500">Periode: 29 Sep - 05 Okt 2026</p>
+              <p className="text-sm text-ink-500">Periode: 18 - 24 Okt 2026</p>
             </div>
             <OperationPlanTable />
           </section>

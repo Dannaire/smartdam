@@ -23,8 +23,8 @@ export default function MonitoringPage() {
 
   const tma = readingsData?.current.tma ?? 82.35;
   const trend = readingsData?.current.trend ?? 0.12;
-  const nwl = readingsData?.current.nwl ?? 85.0;
-  const lwl = readingsData?.current.lwl ?? 75.0;
+  const nwl = readingsData?.current.nwl ?? 98.03;
+  const lwl = readingsData?.current.lwl ?? 77.19;
   const updatedAt = readingsData?.updatedAt;
 
   return (

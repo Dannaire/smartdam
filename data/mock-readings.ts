@@ -23,9 +23,9 @@ export const mockReadings7Days: WaterLevelReading[] = [
 export const currentTMA = {
   value: 82.35,
   trend: +0.12, // dibanding kemarin
-  nwl: 85.0,
-  lwl: 75.0,
-  rwl: 85.0,
+  nwl: 98.03,
+  lwl: 77.19,
+  rwl: 98.03,
   inflow: 36.8,
   outflow: 24.5,
   powerPlant: 1.2, // MW

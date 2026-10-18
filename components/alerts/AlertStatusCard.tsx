@@ -1,15 +1,14 @@
 import { AlertLevel } from "@/types";
 import { getAlertConfig, getAlertIcon } from "@/lib/alert-level";
 import { Card } from "@/components/ui/Card";
-import { formatDateWIB } from "@/lib/format";
 
 interface AlertStatusCardProps {
   level: AlertLevel;
   message: string;
-  time: string;
+  time?: string;
 }
 
-export function AlertStatusCard({ level, message, time }: AlertStatusCardProps) {
+export function AlertStatusCard({ level, message }: AlertStatusCardProps) {
   const config = getAlertConfig(level);
   const Icon = getAlertIcon(level);
   const isDanger = level === "siaga" || level === "awas";
@@ -31,7 +30,7 @@ export function AlertStatusCard({ level, message, time }: AlertStatusCardProps) 
             {message}
           </p>
           <p className="text-xs text-ink-500">
-            Terakhir diperbarui: {formatDateWIB(time)}
+            Terakhir diperbarui: hari ini
           </p>
         </div>
       </div>

@@ -2,10 +2,13 @@ import { Card } from "@/components/ui/Card";
 
 export function OperationPlanTable() {
   const plans = [
-    { date: "29 Sep 2026", targetElev: 82.35, realElev: 82.35, targetOutflow: 25.0, realOutflow: 24.5 },
-    { date: "30 Sep 2026", targetElev: 82.40, realElev: null, targetOutflow: 25.0, realOutflow: null },
-    { date: "01 Okt 2026", targetElev: 82.45, realElev: null, targetOutflow: 25.0, realOutflow: null },
-    { date: "02 Okt 2026", targetElev: 82.50, realElev: null, targetOutflow: 25.0, realOutflow: null },
+    { date: "18 Okt 2026", targetElev: 82.35, realElev: 82.35, targetOutflow: 25.0, realOutflow: 24.5 },
+    { date: "19 Okt 2026", targetElev: 82.30, realElev: 82.28, targetOutflow: 25.0, realOutflow: 25.1 },
+    { date: "20 Okt 2026", targetElev: 82.25, realElev: 82.20, targetOutflow: 25.0, realOutflow: 25.0 },
+    { date: "21 Okt 2026", targetElev: 82.20, realElev: null, targetOutflow: 25.0, realOutflow: null },
+    { date: "22 Okt 2026", targetElev: 82.15, realElev: null, targetOutflow: 25.0, realOutflow: null },
+    { date: "23 Okt 2026", targetElev: 82.10, realElev: null, targetOutflow: 25.0, realOutflow: null },
+    { date: "24 Okt 2026", targetElev: 82.05, realElev: null, targetOutflow: 25.0, realOutflow: null },
   ];
 
   return (

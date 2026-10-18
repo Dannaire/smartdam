@@ -18,6 +18,6 @@ export async function GET() {
       outflow: currentTMA.outflow + (Math.random() - 0.5) * 1,
     },
     series: mockReadings7Days,
-    updatedAt: new Date().toISOString(),
+    updatedAt: "2026-10-20T00:00:00.000Z",
   });
 }

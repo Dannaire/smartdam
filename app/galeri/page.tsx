@@ -9,7 +9,6 @@ import { Clock, Ticket, MapPin } from "lucide-react";
 const galleryImages = [
   "/assets/sumbawa1.jpg",
   "/assets/sumbawa2.jfif",
-  "/assets/sumbawa3.jfif",
   "/assets/sumbawa4.jfif",
 ];
 
@@ -42,7 +41,7 @@ export default function GaleriPage() {
                    <div className="p-2 bg-brand-50 rounded-full text-brand-600 mt-1"><MapPin size={18} /></div>
                    <div>
                      <p className="font-semibold text-ink-900">Lokasi</p>
-                     <p className="text-sm text-ink-500">Kawasan Bendungan Sumbawa, NTB</p>
+                     <p className="text-sm text-ink-500">Kawasan Bendungan Utan, Sumbawa, NTB</p>
                    </div>
                 </div>
              </Card>

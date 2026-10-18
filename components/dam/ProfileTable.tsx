@@ -8,11 +8,12 @@ export function ProfileTable({ technical }: ProfileTableProps) {
   const data = [
     { label: "Tipe Bendungan", value: technical.type },
     { label: "Tinggi Bendungan", value: `${technical.height} m` },
-    { label: "Panjang Puncak", value: `${technical.crestLength} m` },
-    { label: "Tampungan Total", value: `${technical.totalStorage.toString().replace('.', ',')} juta m³` },
+    { label: "Lebar Puncak", value: `${technical.crestWidth ?? 10} m` },
+    ...(technical.totalStorage
+      ? [{ label: "Tampungan Total", value: `${technical.totalStorage.toString().replace('.', ',')} juta m³` }]
+      : []),
     { label: "Tampungan Efektif", value: `${technical.effectiveStorage.toString().replace('.', ',')} juta m³` },
     { label: "Tampungan Mati", value: `${technical.deadStorage.toString().replace('.', ',')} juta m³` },
-    { label: "Luas Genangan", value: `${technical.reservoirArea} ha` },
     { label: "Fungsi", value: technical.functions.join(", ") },
   ];
 

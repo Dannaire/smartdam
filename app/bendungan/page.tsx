@@ -45,7 +45,7 @@ export default function InformasiBendunganPage() {
                <div className="bg-white p-5 rounded-2xl border border-line shadow-sm">
                  <h2 className="text-2xl font-bold text-brand-900 mb-2">{mockDam.name}</h2>
                  <p className="text-ink-500 text-sm leading-relaxed mb-4">
-                    Bendungan Sumbawa adalah infrastruktur strategis yang dibangun untuk mengelola sumber daya air di wilayah Sumbawa. Bendungan ini memiliki peran vital dalam mendukung ketahanan pangan, energi, dan penyediaan air bersih.
+                    Bendungan Utan adalah infrastruktur strategis yang dibangun untuk mengelola sumber daya air di wilayah Sumbawa. Bendungan ini memiliki peran vital dalam mendukung ketahanan pangan, energi, dan penyediaan air bersih.
                  </p>
                  <div className="space-y-2 text-sm">
                     <div className="flex justify-between border-b border-line pb-2">
@@ -97,15 +97,15 @@ export default function InformasiBendunganPage() {
                  <div className="bg-white p-5 rounded-2xl border border-line shadow-sm space-y-4">
                     <div>
                       <h4 className="font-semibold text-ink-900 mb-2">Pelimpah (Spillway)</h4>
-                      <p className="text-sm text-ink-500">Tipe: Ogee tanpa pintu. Lebar mercu: 40 m. Elevasi mercu: +85.00 m.</p>
+                      <p className="text-sm text-ink-500">Tipe: Chute Gated Spillway. Jumlah pintu: 2. Elevasi mercu: +85.00 m.</p>
                     </div>
                     <div className="border-t border-line pt-4">
                       <h4 className="font-semibold text-ink-900 mb-2">Bangunan Pengambilan</h4>
-                      <p className="text-sm text-ink-500">Tipe: Menara (Drop Inlet). Elevasi dasar: +65.00 m. Kapasitas maksimum: 15 m³/s.</p>
+                      <p className="text-sm text-ink-500">Tipe: Multilevel Intake. Elevasi dasar: +65.00 m. Kapasitas maksimum: 15 m³/s.</p>
                     </div>
                     <div className="border-t border-line pt-4">
                       <h4 className="font-semibold text-ink-900 mb-2">Dimensi & Elevasi</h4>
-                      <p className="text-sm text-ink-500">Elevasi Puncak: +90.00 m. Elevasi NWL: +85.00 m. Elevasi LWL: +75.00 m.</p>
+                      <p className="text-sm text-ink-500">Elevasi Puncak: +105.00 m. Elevasi NWL: +98.03 m. Elevasi LWL: +77.19 m.</p>
                     </div>
                  </div>
                </div>

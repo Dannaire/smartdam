@@ -26,7 +26,7 @@ const functionDetails = [
   {
     keyword: "PLTA",
     icon: Zap,
-    title: "Pembangkit Listrik (PLTA)",
+    title: "Pembangkit Listrik (PLTA_S)",
     desc: "Memanfaatkan energi potensial air untuk menghasilkan energi listrik.",
     color: "text-yellow-600",
     bg: "bg-yellow-50",

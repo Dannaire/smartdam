@@ -10,7 +10,7 @@ export async function GET() {
       inst.value !== null
         ? Math.round((inst.value + (Math.random() - 0.5) * inst.value * 0.01) * 100) / 100
         : null,
-    updatedAt: new Date().toISOString(),
+    updatedAt: "2026-10-20T00:00:00.000Z",
   }));
 
   return NextResponse.json(liveInstruments);

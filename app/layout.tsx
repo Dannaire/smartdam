@@ -13,12 +13,12 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Smart Dam — Monitoring Bendungan Sumbawa",
+    default: "Smart Dam — Monitoring Bendungan Utan",
     template: "%s | Smart Dam",
   },
   description:
-    "Sistem monitoring bendungan Sumbawa secara real-time. Pantau tinggi muka air, curah hujan, peringatan dini, dan data instrumen bendungan.",
-  keywords: ["bendungan", "monitoring", "smart dam", "sumbawa", "peringatan dini"],
+    "Sistem monitoring bendungan Utan secara real-time. Pantau tinggi muka air, curah hujan, peringatan dini, dan data instrumen bendungan.",
+  keywords: ["bendungan", "monitoring", "smart dam", "utan", "sumbawa", "peringatan dini"],
   authors: [{ name: "BBWS Nusa Tenggara" }],
   manifest: "/manifest.json",
 };
